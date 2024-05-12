@@ -63,7 +63,7 @@ setuptools.setup(
         'optax @ git+https://github.com/deepmind/optax#egg=optax',
         'orbax-checkpoint',
         'seqio @ git+https://github.com/google/seqio#egg=seqio',
-        'tensorflow-cpu',
+        'tensorflow-cpu-aws',
         'tensorstore >= 0.1.20',
         # remove this when sentencepiece_model_pb2 is re-generated in the
         # sentencepiece package.
